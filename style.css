@@ -1,0 +1,65 @@
+*{
+    list-style: none;
+}
+
+
+body{
+    background-color: #07161B;
+}
+
+.container{
+    border: 2px solid #CEC7BF;
+    padding: 10px;
+    max-width: 300px;
+    margin: 250px auto ; /* cetralizar (auto deixa automatico ao cetro) */
+    background: #3d737f;
+    border-radius: 50px;
+    text-align: center;
+    /* ou 
+    display: flex;
+    justify-content: center; */
+
+}
+
+.form-control{
+    margin: 25px;
+}
+
+.form-control input [type="text"]{
+    width: 80%;
+    padding: 20px;
+    outline:0; 
+    /* outline-para tirar os efeitos do navegador */
+}
+
+input{
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+h2{
+    color: beige;
+    text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.637);
+    /* 2px é a posição horizontal da sombra.
+    2px é a posição vertical da sombra.
+    4px é o desfoque da sombra. */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+button{
+    margin-bottom: 10px;
+    background-color: #26425a;
+    border-radius: 20px;
+    padding:20px;
+    color: #86a8cf;
+    cursor: pointer;
+   
+}
+
+.erro{
+    color: #2b124c;
+    text-align: left;
+    margin-left: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
